@@ -1,0 +1,4 @@
+# AES-256-GCM key (base64). 解密：见 decrypt.py
+KEY_B64=UMH1ZQGdjW2jXxIl3ykoO/DiOKetshJ1hiJ/tYGSXNo=
+PARTS=9
+PLAIN_ZIP_FORMAT=standard zip, entries are relative paths (dir/file.png)

@@ -1,0 +1,69 @@
+{
+  "parts": [
+    {
+      "file": "part_001.zip.enc",
+      "files": 18,
+      "plain_zip_bytes": 19825519,
+      "enc_bytes": 19825547,
+      "sha256": "1dc5e26ca147ef5e391cf4edd404db186600e73937d7124caf02ffe41337adab"
+    },
+    {
+      "file": "part_002.zip.enc",
+      "files": 16,
+      "plain_zip_bytes": 20066043,
+      "enc_bytes": 20066071,
+      "sha256": "29224e10fc0aa5cbf766ebd22f067315a8f9f14b6c5cc9de03212ac1faa93629"
+    },
+    {
+      "file": "part_003.zip.enc",
+      "files": 16,
+      "plain_zip_bytes": 19617755,
+      "enc_bytes": 19617783,
+      "sha256": "904998f52370247c74f3d8212ec5b62fd20384741e71b802cfa40df10e3a2b80"
+    },
+    {
+      "file": "part_004.zip.enc",
+      "files": 17,
+      "plain_zip_bytes": 20771489,
+      "enc_bytes": 20771517,
+      "sha256": "a6123087b5ee7ebdc44beb54e5d47082ef5a017258eec1091871e6b1f7905007"
+    },
+    {
+      "file": "part_005.zip.enc",
+      "files": 16,
+      "plain_zip_bytes": 20444814,
+      "enc_bytes": 20444842,
+      "sha256": "360640ec23f65558414b2908e30c84cf744baca64d9b15ebfcb62df7cccd3bfe"
+    },
+    {
+      "file": "part_006.zip.enc",
+      "files": 14,
+      "plain_zip_bytes": 20162129,
+      "enc_bytes": 20162157,
+      "sha256": "0a24b87fb8614245d5bb02e9bc29abdda8b87195b8475fc108f1230e12422359"
+    },
+    {
+      "file": "part_007.zip.enc",
+      "files": 13,
+      "plain_zip_bytes": 19843588,
+      "enc_bytes": 19843616,
+      "sha256": "8e325a148db0efd7ecb8661bab1537f98a4e31dc74db185c9309e7c9edab63b1"
+    },
+    {
+      "file": "part_008.zip.enc",
+      "files": 11,
+      "plain_zip_bytes": 19633350,
+      "enc_bytes": 19633378,
+      "sha256": "7da6087f03916d765f63ea55f536cd206946656249a3ff6f7a371980923ab008"
+    },
+    {
+      "file": "part_009.zip.enc",
+      "files": 4,
+      "plain_zip_bytes": 7376728,
+      "enc_bytes": 7376756,
+      "sha256": "394ae5f955167686540720dd60aa665f001ffa0e84347da9edb3f839967c2813"
+    }
+  ],
+  "cipher": "AES-256-GCM",
+  "note": "nonce(12B) || ciphertext || tag(16B)"
+}
