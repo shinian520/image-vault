@@ -39,3 +39,16 @@ python decrypt.py -o ./restored
 - 压缩包条目一律为相对路径，不含盘符、用户名或临时目录
 - `MANIFEST.json` 只记录体积与哈希，不记录条目名
 - 提交作者使用 noreply 地址，不含真实邮箱
+## 普通解压软件打不开是正常的
+
+`part_*.zip.enc` **不是 zip**，是 AES-256-GCM 密文。文件头是随机 nonce（如 `cc0b7fa7`），
+WinRAR / 7-Zip / 系统解压都会报「无法打开或文件损坏」——这是设计如此，不是文件坏了。
+
+解压必须走脚本：
+
+| 系统 | 操作 |
+|---|---|
+| Windows | 双击 `decrypt.bat`（自动装依赖并解到 `out\`） |
+| 任意 | `python decrypt.py`（需先 `pip install cryptography`） |
+
+还原校验：9 卷共 125 个文件、159.9 MB。
